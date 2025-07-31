@@ -34,7 +34,7 @@ A **Django REST Framework** application for managing transportation providers an
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/mozio-backend.git
+git clone https://github.com/devketanpro/Mozio-Python-Backend.git
 cd mozio-backend
 ```
 
@@ -94,3 +94,8 @@ docker-compose exec web python manage.py test
 | `/api/lookup-service-area/?lat=<lat>&lng=<lng>`   | GET    | Find service areas covering a point |
 | `/api/auth/signup/`                               | POST   | Sign up a new user                  |
 ---
+
+## 📘 API Documentation
+
+All endpoints are documented here:  
+👉 [Postman Public Docs](https://documenter.getpostman.com/view/47197878/2sB3B8stgs)
