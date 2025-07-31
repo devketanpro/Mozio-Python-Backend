@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django
+*.pot
+*.pyc
+*.pyo
+*.db
+*.mo
+*.bak
+*.swp
+*.tmp
+*.pid
+.env
+.env.*
+
+# Migrations (optional to ignore if you regenerate often)
+*/migrations/*.py
+*/migrations/__pycache__/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+*.seed
+*.tar
+*.gz
+*.zip
+*.bak
+*.orig
+*.swp
+
+# Static files (collected)
+staticfiles/
+
+# Media files (if any)
+media/
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# MyPy
+.mypy_cache/
+
+# PyCharm
+.idea/
+
+# System files
+Thumbs.db
+ehthumbs.db
